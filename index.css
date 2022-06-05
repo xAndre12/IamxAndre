@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: content-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+nav{
+    background-color: rgb(4, 175, 175);
+    transition-duration: 2s;
+}
+ul{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  
+}
+li{
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    padding: 30px;
+   
+}
+li:hover{
+    background-color: rgb(0, 0, 0);
+}
+p{
+    padding-top: 120px;
+    text-align: center;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    line-height: 60px;
+}
+h1{
+    color:cyan;
+    font-size: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    visibility: hidden;
+    transition-duration: 2s;
+}
+.StartAnimation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 91.5vh;
+    position: relative;
+}
+button{
+    height: 100px;
+    width: 400px;
+    font-size: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    transition-duration: 2s;
+    text-shadow: cyan;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: hotpink;
+}
